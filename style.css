@@ -99,7 +99,19 @@ html {
     background: #f1f1f1;
     text-align: center;
 }
+.containder {
+    width: 800px;
+    height: 500px;
+    line-height: 500px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
 
+.containder .containder-img {
+    width: 400px;
+    height: 500px;
+}
 .inner-width {
     max-width: 1200px;
     margin: auto;
@@ -122,6 +134,7 @@ html {
     overflow: hidden;
     padding: 40px 0;
 }
+
 .pe:hover {
     background: #ddd;
 }
